@@ -38,7 +38,7 @@ const ProjectsList = () => {
 
   return (
     <>
-      <h1 className="display-5 mt-2">Projets</h1>
+      <h1 className="display-4 mt-2">Projets</h1>
       <hr />
 
       <div className="input-group mb-3">

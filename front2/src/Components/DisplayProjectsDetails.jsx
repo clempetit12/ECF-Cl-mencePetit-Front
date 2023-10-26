@@ -35,11 +35,12 @@ const DisplayProjectDetails = () => {
     return (
         <>
 
-            <h1>Détails projet</h1>
+            <h1 className="display-4">Détails projet</h1>
             <hr />
             <div className="d-flex justify-content-center ">
             <div className="card " style={{ width: '50rem' }}>
                 <h5 className="card-title display-5"><b></b>{selectedproject.title}</h5>
+                <hr />
                 <div className="card-body">
                   
                     <p className="card-text"><b >Description du projet : </b>{selectedproject.description}</p>
